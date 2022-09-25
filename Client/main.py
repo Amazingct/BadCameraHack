@@ -6,7 +6,7 @@ import socket
 
 hostname=socket.gethostname()   
 IPAddr=socket.gethostbyname(hostname)   
-broker = "45.55.44.162"
+broker = "your server ip"
 topic= "{}_camera".format(hostname,IPAddr)
 
 

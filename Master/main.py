@@ -37,8 +37,8 @@ class VisionFromMqtt:
         self.client.loop_stop()
 
 
-MQTT_BROKER = "45.55.44.162"
-MQTT_RECEIVE = "parallelscore_camera"
+MQTT_BROKER = "your server ip"
+MQTT_RECEIVE = ""
 vision = VisionFromMqtt(MQTT_BROKER,30100, MQTT_RECEIVE)
 
 while True:

