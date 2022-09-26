@@ -1,6 +1,6 @@
-resource "digitalocean_droplet" "mosquitto-mqtt" {
+resource "digitalocean_droplet" "mosquitto" {
   image = "ubuntu-20-04-x64"
-  name = "mosquitto-mqtt"
+  name = "mosquitto"
   region = "nyc3"
   size = "s-1vcpu-1gb"
 

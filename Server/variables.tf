@@ -2,7 +2,7 @@ variable "digitalocean_token" {
   
     description = "DigitalOcean API token"
     type        = string
-    default     = "your_token_here"
+    default     = ""
 }
 
 variable "my_private_key_file_path" {
