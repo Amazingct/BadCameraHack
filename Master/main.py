@@ -2,6 +2,7 @@ import base64
 import cv2 as cv
 import numpy as np
 import paho.mqtt.client as mqtt
+import json
 
 
 class VisionFromMqtt:
@@ -37,7 +38,7 @@ class VisionFromMqtt:
         self.client.loop_stop()
 
 
-MQTT_BROKER = "your server ip"
+MQTT_BROKER = ""
 MQTT_RECEIVE = ""
 vision = VisionFromMqtt(MQTT_BROKER,30100, MQTT_RECEIVE)
 
